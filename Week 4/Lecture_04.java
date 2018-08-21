@@ -8,7 +8,7 @@ public class Lecture_04 {
     }
 
     public void run() {
-        //ArrayList<String> names = Arrays.asList("Kim", "Sue", "Joe", "Jan", 'Jim');
+        //ArrayList<String> names = Arrays.asList("Kim", "Sue", "Joe", "Jan", "Jim");
         ArrayList<String> names = new ArrayList<String>();
         names.add("Kim");
         names.add("Sue");
@@ -31,7 +31,7 @@ public class Lecture_04 {
 
     public void run3() {
         TaxRecord rec1 = new TaxRecord("Kim", 35000);
-        TaxRecord rec2 = new TaxRecord("Sue", 47000);
+        //TaxRecord rec2 = new TaxRecord("Sue", 47000);
         printTaxReturn(rec1);
         //printTaxReturn(rec2);
 
